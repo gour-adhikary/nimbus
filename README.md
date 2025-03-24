@@ -23,17 +23,20 @@ curl -fsSL https://deno.land/x/install/install.sh | sh
 
 Clone this repository and navigate to the project folder:
 
-`git clone https://github.com/your-username/nimbus.git`
-`cd nimbus`
+```
+git clone https://github.com/your-username/nimbus.git
+cd nimbus
+```
 
 ## 🌤️ Usage
 
 Run Nimbus without installation
 Deno allows you to run scripts directly:
 
-````deno run --allow-net nimbus.ts <city-name>
-deno run --allow-net nimbus.ts London```
-````
+```
+deno run --allow-net nimbus.js <city-name>
+deno run --allow-net nimbus.js London
+```
 
 ## Set up an OpenWeatherMap API key
 
